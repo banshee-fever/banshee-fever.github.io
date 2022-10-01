@@ -1,0 +1,139 @@
+@font-face {
+  font-family: AppleKid;
+  src: url("../assets/woff/Apple-Kid.woff2") format("woff2"),
+    url("../assets/woff/Apple-Kid.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-smooth: never;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../assets/img/global/bkg.png");
+  background-repeat: repeat;
+  font-family: AppleKid;
+  color: #eaeaea;
+  font-size: 20pt;
+  line-height: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: AppleKid;
+  line-height: 0.3;
+  letter-spacing: 0.8px;
+  color: #b5e853;
+}
+
+h1 {
+  font-size: 35pt;
+}
+
+h2 {
+  font-size: 30pt;
+}
+
+h3 {
+  font-size: 25pt;
+}
+
+h4 {
+  font-size: 20pt;
+}
+
+a {
+  color: #63c0f5;
+  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+}
+
+.column {
+  padding: 10px;
+  height: 100%;
+}
+
+.sidebar {
+  background-image: url("../assets/img/global/bkg.png");
+  width: 220px;
+  overflow: auto;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  float: left;
+  overflow-x: hidden;
+}
+
+.sidebar h1 {
+  line-height: 1;
+  font-size: 20.6pt;
+  text-align: center;
+}
+
+#navigation {
+  text-align: center;
+}
+
+.nav-icon {
+  width: 42px;
+}
+
+#pfp {
+  width: 200px;
+  height: 200px;
+}
+
+.sidebar-border {
+  background-image: url("../assets/img/global/border.png");
+  width: 6px;
+  padding: 0px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  margin-left: 14rem;
+  overflow: none;
+}
+
+.mainContent {
+  margin-left: 14rem;
+  overflow-x: hidden;
+}
+
+.gallery {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  grid-template-columns: 240px 240px 240px;
+  grid-gap: 8px;
+}
+
+.galleryImg {
+  width: 100%;
+}
+
+.shruggie {
+  font-family: AppleKid;
+}
+
+.shruggie shruggieTag {
+  font-family: Helvetica;
+}
+
+.greentext {
+  font-family: AppleKid;
+  color: #789922;
+}
+
+small {
+  font-size: 14pt;
+}
+
+#welcome {
+  max-width: 728px;
+  max-height: 170px;
+}

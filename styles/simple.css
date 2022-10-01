@@ -1,0 +1,73 @@
+body {
+	background-color: white;
+	color: black;
+	font-family: Verdana;
+}
+h1 {
+  font-size: 35pt;
+}
+
+h2 {
+  font-size: 30pt;
+}
+
+h3 {
+  font-size: 25pt;
+}
+
+h4 {
+  font-size: 20pt;
+}
+
+.column {
+  padding: 10px;
+  height: 100%;
+}
+
+.sidebar {
+  background-color: #8888CC;
+  width: 220px;
+  overflow: auto;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  float: left;
+  overflow-x: hidden;
+}
+
+.sidebar h1 {
+  line-height: 1;
+  font-size: 20.6pt;
+  text-align: center;
+}
+#navigation {
+  text-align: left;
+}
+
+.nav-icon {
+  width: 42px;
+}
+
+#pfp {
+  width: 200px;
+  height: 200px;
+}
+
+.sidebar-border {
+  background-image: url("../assets/img/global/border.png");
+  width: 6px;
+  padding: 0px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  margin-left: 14rem;
+  overflow: none;
+}
+
+.mainContent {
+  margin-left: 14rem;
+  overflow-x: hidden;
+}
+
+
+
